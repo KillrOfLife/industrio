@@ -12,7 +12,9 @@ There are extra mobs, and some custom recipes to make the modpack more difficult
  
 
 Credits to
+
 The maker of the sky bees modpack - Valdan
+
 the mod creators
 
     Industrial Agriculture (by ArrowsendGaming)
