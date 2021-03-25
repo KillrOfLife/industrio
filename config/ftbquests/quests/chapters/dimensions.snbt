@@ -1,0 +1,103 @@
+{
+	id: "000000000000005D",
+	group: "",
+	order_index: 12,
+	filename: "dimensions",
+	title: "Dimensions",
+	icon: "minecraft:end_portal_frame",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.5d,
+			y: -6.0d,
+			dependencies: ["0000000000000098"],
+			dependency_requirement: "all_started",
+			id: "000000000000005E",
+			tasks: [{
+				id: "0000000000000060",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: "73A4C631D19A5E8C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.0d,
+			dependencies: ["000000000000009B"],
+			id: "0000000000000061",
+			tasks: [{
+				id: "0000000000000062",
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [{
+				id: "40EFD71DF30F5EEF",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -6.0d,
+			id: "0000000000000063",
+			tasks: [{
+				id: "0000000000000064",
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}],
+			rewards: [{
+				id: "2D46C088740D8783",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -8.0d,
+			id: "0000000000000098",
+			tasks: [
+				{
+					id: "0000000000000099",
+					type: "item",
+					item: "minecraft:obsidian",
+					count: 10L
+				},
+				{
+					id: "000000000000009A",
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "1B69C9A7DACE9302",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -8.0d,
+			id: "000000000000009B",
+			tasks: [{
+				id: "000000000000009C",
+				type: "item",
+				item: "exnihilosequentia:end_cake"
+			}],
+			rewards: [{
+				id: "126518253F2DD4B0",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

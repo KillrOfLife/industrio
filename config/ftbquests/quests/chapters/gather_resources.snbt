@@ -1,0 +1,577 @@
+{
+	id: "20854F7A0E558A77",
+	group: "",
+	order_index: 0,
+	filename: "gather_resources",
+	title: "Gather resources",
+	icon: "minecraft:oak_log",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "269DDA11B15A1DB3",
+			tasks: [{
+				id: "1B767BF55F89B4DC",
+				type: "item",
+				item: "minecraft:oak_log"
+			}],
+			rewards: [
+				{
+					id: "11474E07828CC27C",
+					type: "item",
+					item: "chancecubes:scanner"
+				},
+				{
+					id: "4FDB78E004E14FB9",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: ["269DDA11B15A1DB3"],
+			id: "0E828729460CD5A7",
+			tasks: [{
+				id: "44A1148A2A5FBE07",
+				type: "item",
+				item: {
+					id: "minecraft:wooden_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7F186DDDDBB17955",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: ["269DDA11B15A1DB3"],
+			id: "2A3842FD729D6DB5",
+			tasks: [{
+				id: "73E329D20094E539",
+				type: "item",
+				item: "minecraft:apple"
+			}],
+			rewards: [{
+				id: "600335C554FA78F6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: ["0E828729460CD5A7"],
+			id: "54B0397E7447BB77",
+			tasks: [{
+				id: "055595C8FE242D3A",
+				type: "item",
+				item: "minecraft:cobblestone"
+			}],
+			rewards: [{
+				id: "63EDE98C9EC85FE6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["269DDA11B15A1DB3"],
+			id: "329464C068A2EB5B",
+			tasks: [{
+				id: "0838C552C24A7EE4",
+				type: "item",
+				item: "minecraft:oak_planks"
+			}],
+			rewards: [{
+				id: "33E99865191E4598",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			dependencies: ["54B0397E7447BB77"],
+			id: "3C83CE26C0ABB2BC",
+			tasks: [{
+				id: "426EE17C6CB220D4",
+				type: "item",
+				item: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7E225FA9DD186B41",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -8.0d,
+			dependencies: ["3C83CE26C0ABB2BC"],
+			id: "6424CBE968A126AB",
+			tasks: [{
+				id: "01181E72F601FB51",
+				type: "item",
+				item: "minecraft:coal"
+			}],
+			rewards: [{
+				id: "3B7ED306A663A276",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			dependencies: ["3C83CE26C0ABB2BC"],
+			id: "5777DBECFC8FF2B4",
+			tasks: [{
+				id: "7AC6A256E3E38B5C",
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [{
+				id: "33AAE4588FB30772",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -10.0d,
+			dependencies: ["5777DBECFC8FF2B4"],
+			id: "7DA148C0EA66CF47",
+			tasks: [{
+				id: "79773FDBB23D0DEC",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "34872F4DF9CA7568",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -12.0d,
+			dependencies: ["7DA148C0EA66CF47"],
+			id: "2AEC58B9B719A704",
+			tasks: [{
+				id: "2C704E865DA12DD5",
+				type: "item",
+				item: "minecraft:redstone"
+			}],
+			rewards: [{
+				id: "248AC35851933E5C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -8.0d,
+			dependencies: ["3C83CE26C0ABB2BC"],
+			id: "6AAE902CB0AB7260",
+			tasks: [{
+				id: "70BCD392137ED6CF",
+				type: "item",
+				item: "minecraft:lapis_lazuli"
+			}],
+			rewards: [{
+				id: "0218A161FC7B8696",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -12.0d,
+			dependencies: ["7DA148C0EA66CF47"],
+			id: "2EEDF531233A767F",
+			tasks: [{
+				id: "416ACF89CA3268E1",
+				type: "item",
+				item: "minecraft:diamond"
+			}],
+			rewards: [{
+				id: "769E48CA9C16986C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -12.0d,
+			dependencies: ["7DA148C0EA66CF47"],
+			id: "39000E164E8F8835",
+			tasks: [{
+				id: "254B49A9C6CF368B",
+				type: "item",
+				item: "minecraft:gold_ingot"
+			}],
+			rewards: [{
+				id: "190A50993C304603",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -8.0d,
+			shape: "hexagon",
+			dependencies: ["6AAE902CB0AB7260"],
+			dependency_requirement: "one_completed",
+			id: "3D7B99648C310A35",
+			tasks: [{
+				id: "74BA34F668E339B6",
+				type: "item",
+				item: "minecraft:lapis_block",
+				count: 64L,
+				only_from_crafting: false
+			}],
+			rewards: [{
+				id: "365EE101935F54CD",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -12.0d,
+			dependencies: ["2EEDF531233A767F"],
+			id: "6930131C1DF9F42A",
+			tasks: [{
+				id: "7145F4E7E0D654A4",
+				type: "item",
+				item: "minecraft:diamond_block",
+				count: 64L
+			}],
+			rewards: [{
+				id: "70AD78CA92A9EBD9",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -19.5d,
+			dependencies: ["02DD7C790FFD195F"],
+			id: "1BDBEE28D5FCC95F",
+			tasks: [{
+				id: "7FEF47060CC01609",
+				type: "item",
+				item: "minecraft:beacon"
+			}],
+			rewards: [{
+				id: "17B03B2FB40B5BBC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -22.0d,
+			dependencies: ["1BDBEE28D5FCC95F"],
+			id: "1FF1E8F8C8DD889B",
+			tasks: [{
+				id: "06D13927C0BADAAB",
+				type: "item",
+				item: "cyclic:beacon"
+			}],
+			rewards: [{
+				id: "4501432A887EEC8B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -17.0d,
+			dependencies: ["654710066B3C1735"],
+			id: "05FE12397C1AE752",
+			tasks: [{
+				id: "2A96F7E1F431B132",
+				type: "item",
+				item: "minecraft:netherite_scrap"
+			}],
+			rewards: [{
+				id: "726C1C7732FE0AAE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -19.5d,
+			dependencies: ["05FE12397C1AE752"],
+			id: "101D143509CD57AA",
+			tasks: [{
+				id: "649222FBB44A3575",
+				type: "item",
+				item: "minecraft:netherite_ingot"
+			}],
+			rewards: [{
+				id: "59ACA259394B23CE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -22.0d,
+			dependencies: ["101D143509CD57AA"],
+			id: "29BE00892F39999C",
+			tasks: [{
+				id: "10B39795A27E0662",
+				type: "item",
+				item: "minecraft:netherite_block",
+				count: 64L
+			}],
+			rewards: [
+				{
+					id: "7BF201AA869E2858",
+					type: "item",
+					item: {
+						id: "chancecubes:chance_pendant_tier3",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "49C89F7A404A8AB3",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -12.0d,
+			dependencies: ["39000E164E8F8835"],
+			id: "2FA5768E8422F28D",
+			tasks: [{
+				id: "4C1378CE5FF934C3",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 64L
+			}],
+			rewards: [{
+				id: "2FBDE7BE603208A9",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -8.0d,
+			dependencies: ["6424CBE968A126AB"],
+			id: "54BFA4C66946DE01",
+			tasks: [{
+				id: "1B505F1A664EA16C",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 64L
+			}],
+			rewards: [{
+				id: "27E9EE603ACA1C10",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -14.5d,
+			dependencies: ["2EEDF531233A767F"],
+			id: "654710066B3C1735",
+			tasks: [{
+				id: "2A785F14F5EA10AF",
+				type: "item",
+				item: "minecraft:obsidian",
+				count: 10L
+			}],
+			rewards: [{
+				id: "52E22C9FC777B3FC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: ["269DDA11B15A1DB3"],
+			id: "466A1F66E4CFA1D5",
+			tasks: [{
+				id: "512541F2BFD7D35C",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:crook_wood",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0DCF52C0CD3445E1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			dependencies: ["269DDA11B15A1DB3"],
+			id: "746A50B9F8A07787",
+			tasks: [{
+				id: "675CA26A422BFBF7",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:hammer_wood",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "7CE0DAF32385B729",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			dependencies: ["746A50B9F8A07787"],
+			id: "07B9099EAB4CACA6",
+			tasks: [{
+				id: "23FDC42C6E75A647",
+				type: "item",
+				item: {
+					id: "excompressum:compressed_hammer_stone",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "3FE72B92587A8D47",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: ["466A1F66E4CFA1D5"],
+			id: "500131FF4AFC1894",
+			tasks: [{
+				id: "723694CB2F9914DA",
+				type: "item",
+				item: {
+					id: "excompressum:compressed_crook",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "272D4DA8972E10D7",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["329464C068A2EB5B"],
+			id: "417A29410D7A6243",
+			tasks: [{
+				id: "1DD388CDED8E7201",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "4FC6F9CE9257A0B2",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: ["417A29410D7A6243"],
+			id: "279A99FE4B325027",
+			tasks: [{
+				id: "4AA5DF2D61E3B349",
+				type: "item",
+				item: "cyclic:crafting_stick"
+			}],
+			rewards: [{
+				id: "0BA166DACDE3472E",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -14.5d,
+			dependencies: ["654710066B3C1735"],
+			id: "426591A12C4C158E",
+			tasks: [{
+				id: "34F3FD993B22E599",
+				type: "item",
+				item: "minecraft:wither_skeleton_skull"
+			}],
+			rewards: [{
+				id: "73D429A18BC71375",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -17.0d,
+			dependencies: ["426591A12C4C158E"],
+			id: "02DD7C790FFD195F",
+			tasks: [{
+				id: "2FD95F62B90558E1",
+				type: "item",
+				item: "minecraft:nether_star"
+			}],
+			rewards: [{
+				id: "44A0FF78C15DBB04",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

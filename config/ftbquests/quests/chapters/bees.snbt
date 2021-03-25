@@ -1,0 +1,1081 @@
+{
+	id: "0000000000000038",
+	group: "",
+	order_index: 3,
+	filename: "bees",
+	title: "Bees",
+	icon: "minecraft:honeycomb",
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 0.0d,
+		height: 0.0d,
+		rotation: 0.0d,
+		image: "#FFFFFF",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
+	quests: [
+		{
+			x: -6.5d,
+			y: -4.0d,
+			description: [
+				"There are 11 Bees with craftable Spawneggs.",
+				"",
+				"- Marble Bee",
+				"- Sand Bee",
+				"- Cobblestone Bee",
+				"- Coal Bee",
+				"- Gravel Bee",
+				"- Dust Bee",
+				"- Sieve Bee",
+				"- RGBee",
+				"- Icy Bee",
+				"- Zombie Bee",
+				"- Snowball Bee",
+				"",
+				"With them you have to Breed the other Bees"
+			],
+			dependencies: ["000000000000008D"],
+			id: "00000000000000F8",
+			tasks: [{
+				id: "00000000000000F9",
+				type: "item",
+				item: "minecraft:beehive"
+			}],
+			rewards: [{
+				id: "19A7C10A25AF4842",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.0d,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000412A",
+			tasks: [{
+				id: "000000000000412B",
+				type: "item",
+				item: "resourcefulbees:t1_beehive"
+			}],
+			rewards: [{
+				id: "01DA0F6F301C9C9F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			dependencies: ["000000000000412A"],
+			id: "000000000000412C",
+			tasks: [{
+				id: "000000000000412D",
+				type: "item",
+				item: "resourcefulbees:t2_beehive"
+			}],
+			rewards: [{
+				id: "137FD437DD3C0561",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.0d,
+			dependencies: ["000000000000412C"],
+			id: "000000000000412E",
+			tasks: [{
+				id: "000000000000412F",
+				type: "item",
+				item: "resourcefulbees:t3_beehive"
+			}],
+			rewards: [{
+				id: "6DEDAA601F1909D1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			dependencies: ["000000000000412E"],
+			id: "0000000000004130",
+			tasks: [{
+				id: "0000000000004131",
+				type: "item",
+				item: "resourcefulbees:t4_beehive"
+			}],
+			rewards: [{
+				id: "47D1EA0213D6BE8B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			dependencies: ["0000000000004130"],
+			id: "0000000000004132",
+			tasks: [{
+				id: "0000000000004133",
+				type: "item",
+				item: "resourcefulbees:t1_apiary"
+			}],
+			rewards: [{
+				id: "1AC17E9F91FFBE13",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			dependencies: ["0000000000004132"],
+			id: "0000000000004134",
+			tasks: [{
+				id: "0000000000004135",
+				type: "item",
+				item: "resourcefulbees:t2_apiary"
+			}],
+			rewards: [{
+				id: "17E44BD7FABF1982",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.0d,
+			dependencies: ["0000000000004134"],
+			id: "0000000000004136",
+			tasks: [{
+				id: "0000000000004137",
+				type: "item",
+				item: "resourcefulbees:t3_apiary"
+			}],
+			rewards: [{
+				id: "6A7D82EC24A98582",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			dependencies: ["0000000000004136"],
+			id: "0000000000004138",
+			tasks: [{
+				id: "0000000000004139",
+				type: "item",
+				item: "resourcefulbees:t4_apiary"
+			}],
+			rewards: [{
+				id: "10BAE9757B284DAF",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -2.0d,
+			dependencies: ["0000000000004132"],
+			id: "000000000000413A",
+			tasks: [{
+				id: "000000000000413B",
+				type: "item",
+				item: "resourcefulbees:apiary_storage"
+			}],
+			rewards: [{
+				id: "499F0F51583E4CD4",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 0.0d,
+			dependencies: ["000000000000413A"],
+			id: "000000000000413C",
+			tasks: [{
+				id: "000000000000413D",
+				type: "item",
+				item: "resourcefulbees:apiary_breeder"
+			}],
+			rewards: [{
+				id: "57AB12F2215A69BB",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000413E",
+			tasks: [{
+				id: "000000000000413F",
+				type: "item",
+				item: "resourcefulbees:mechanical_centrifuge"
+			}],
+			rewards: [{
+				id: "0C033F23590097D5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			hide: true,
+			id: "0000000000004140",
+			tasks: [{
+				id: "0000000000004141",
+				type: "item",
+				item: "resourcefulbees:centrifuge"
+			}],
+			rewards: [{
+				id: "247DF4993878C764",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["0000000000004140"],
+			id: "0000000000004142",
+			tasks: [
+				{
+					id: "0000000000004143",
+					type: "item",
+					item: "resourcefulbees:centrifuge_controller"
+				},
+				{
+					id: "0000000000004144",
+					type: "item",
+					item: "resourcefulbees:centrifuge_casing",
+					count: 35L
+				}
+			],
+			rewards: [{
+				id: "354CE20FD1A447A7",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["0000000000004142"],
+			id: "0000000000004145",
+			tasks: [
+				{
+					id: "0000000000004146",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_controller"
+				},
+				{
+					id: "0000000000004147",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_casing",
+					count: 35L
+				}
+			],
+			rewards: [{
+				id: "3C3673224A72A317",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004149",
+			tasks: [{
+				id: "000000000000414A",
+				type: "item",
+				item: "resourcefulbees:aluminum_honeycomb"
+			}],
+			rewards: [{
+				id: "5AB2EADE141D72B5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000414D",
+			tasks: [{
+				id: "000000000000414E",
+				type: "item",
+				item: "resourcefulbees:blaze_honeycomb"
+			}],
+			rewards: [{
+				id: "0576887238796195",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000414F",
+			tasks: [{
+				id: "0000000000004150",
+				type: "item",
+				item: "resourcefulbees:bronze_honeycomb"
+			}],
+			rewards: [{
+				id: "40E6B185E4032D81",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004153",
+			tasks: [{
+				id: "0000000000004154",
+				type: "item",
+				item: "resourcefulbees:coal_honeycomb"
+			}],
+			rewards: [{
+				id: "7BBFAA71C134FD1F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004155",
+			tasks: [{
+				id: "0000000000004156",
+				type: "item",
+				item: "resourcefulbees:cobblestone_honeycomb"
+			}],
+			rewards: [{
+				id: "47990714C88524B4",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004157",
+			tasks: [{
+				id: "0000000000004158",
+				type: "item",
+				item: "resourcefulbees:constantan_honeycomb"
+			}],
+			rewards: [{
+				id: "6C542A7CE4DA9308",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004159",
+			tasks: [{
+				id: "000000000000415A",
+				type: "item",
+				item: "resourcefulbees:copper_honeycomb"
+			}],
+			rewards: [{
+				id: "73D0447A9D3E620D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000415B",
+			tasks: [{
+				id: "000000000000415C",
+				type: "item",
+				item: "resourcefulbees:creeper_honeycomb"
+			}],
+			rewards: [{
+				id: "5CECCCE00BEDA4A7",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000415D",
+			tasks: [{
+				id: "000000000000415E",
+				type: "item",
+				item: "resourcefulbees:diamond_honeycomb"
+			}],
+			rewards: [{
+				id: "17C131FEE70827AC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000415F",
+			tasks: [{
+				id: "0000000000004160",
+				type: "item",
+				item: "resourcefulbees:dust_honeycomb"
+			}],
+			rewards: [{
+				id: "556A281B8E82202C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004161",
+			tasks: [{
+				id: "0000000000004162",
+				type: "item",
+				item: "resourcefulbees:electrum_honeycomb"
+			}],
+			rewards: [{
+				id: "2FB8BCE6E3FEC68D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004165",
+			tasks: [{
+				id: "0000000000004166",
+				type: "item",
+				item: "resourcefulbees:emerald_honeycomb"
+			}],
+			rewards: [{
+				id: "601204A70C78E47A",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004167",
+			tasks: [{
+				id: "0000000000004168",
+				type: "item",
+				item: "resourcefulbees:ender_honeycomb"
+			}],
+			rewards: [{
+				id: "0BA6AAF821F2D8EC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000416D",
+			tasks: [{
+				id: "000000000000416E",
+				type: "item",
+				item: "resourcefulbees:ghast_honeycomb"
+			}],
+			rewards: [{
+				id: "3C2EDAD68707EAF8",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000416F",
+			tasks: [{
+				id: "0000000000004170",
+				type: "item",
+				item: "resourcefulbees:glass_honeycomb"
+			}],
+			rewards: [{
+				id: "35509330AA9845CE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004171",
+			tasks: [{
+				id: "0000000000004172",
+				type: "item",
+				item: "resourcefulbees:gold_honeycomb"
+			}],
+			rewards: [{
+				id: "1FE0D336AA373CD0",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004173",
+			tasks: [{
+				id: "0000000000004174",
+				type: "item",
+				item: "resourcefulbees:gravel_honeycomb"
+			}],
+			rewards: [{
+				id: "1B7637BDE46CD679",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004177",
+			tasks: [{
+				id: "0000000000004178",
+				type: "item",
+				item: "resourcefulbees:iron_honeycomb"
+			}],
+			rewards: [{
+				id: "4E10B1F137FC7271",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004179",
+			tasks: [{
+				id: "000000000000417A",
+				type: "item",
+				item: "resourcefulbees:lapis_honeycomb"
+			}],
+			rewards: [{
+				id: "60AC769D98F566DA",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000417B",
+			tasks: [{
+				id: "000000000000417C",
+				type: "item",
+				item: "resourcefulbees:lead_honeycomb"
+			}],
+			rewards: [{
+				id: "18E13941354C0F37",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000417D",
+			tasks: [{
+				id: "000000000000417E",
+				type: "item",
+				item: "resourcefulbees:manasteel_honeycomb"
+			}],
+			rewards: [{
+				id: "508AB4618B83C886",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004181",
+			tasks: [{
+				id: "0000000000004182",
+				type: "item",
+				item: "resourcefulbees:netherite_honeycomb"
+			}],
+			rewards: [{
+				id: "41DFD7871BA901F1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004183",
+			tasks: [{
+				id: "0000000000004184",
+				type: "item",
+				item: "resourcefulbees:netherrack_honeycomb"
+			}],
+			rewards: [{
+				id: "72D6FD6C960D3CA6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004185",
+			tasks: [{
+				id: "0000000000004186",
+				type: "item",
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}],
+			rewards: [{
+				id: "1783535FFC61E41C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004187",
+			tasks: [{
+				id: "0000000000004188",
+				type: "item",
+				item: "resourcefulbees:nickel_honeycomb"
+			}],
+			rewards: [{
+				id: "4ED5CEE4F1CB7327",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004189",
+			tasks: [{
+				id: "000000000000418A",
+				type: "item",
+				item: "resourcefulbees:obsidian_honeycomb"
+			}],
+			rewards: [{
+				id: "54CB4D17F153797C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000418B",
+			tasks: [{
+				id: "000000000000418C",
+				type: "item",
+				item: "resourcefulbees:osmium_honeycomb"
+			}],
+			rewards: [{
+				id: "46976254215420F2",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000418D",
+			tasks: [{
+				id: "000000000000418E",
+				type: "item",
+				item: "resourcefulbees:pigman_honeycomb"
+			}],
+			rewards: [{
+				id: "58E51E251B3D283D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000418F",
+			tasks: [{
+				id: "0000000000004190",
+				type: "item",
+				item: "resourcefulbees:prismarine_honeycomb"
+			}],
+			rewards: [{
+				id: "09D0DE3D11000F61",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004191",
+			tasks: [{
+				id: "0000000000004192",
+				type: "item",
+				item: "resourcefulbees:raw_uranite_honeycomb"
+			}],
+			rewards: [{
+				id: "3217272E2262D93B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004193",
+			tasks: [{
+				id: "0000000000004194",
+				type: "item",
+				item: "resourcefulbees:redstone_honeycomb"
+			}],
+			rewards: [{
+				id: "6568409C7F5CF67C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "0000000000004199",
+			tasks: [{
+				id: "000000000000419A",
+				type: "item",
+				item: "resourcefulbees:rgbee_honeycomb"
+			}],
+			rewards: [{
+				id: "5B9D693F94B5A43C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000419D",
+			tasks: [{
+				id: "000000000000419E",
+				type: "item",
+				item: "resourcefulbees:rubber_honeycomb"
+			}],
+			rewards: [{
+				id: "73A35229CCEF94F4",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "000000000000419F",
+			tasks: [{
+				id: "00000000000041A0",
+				type: "item",
+				item: "resourcefulbees:salt_honeycomb"
+			}],
+			rewards: [{
+				id: "136053B0FAFD3097",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041A1",
+			tasks: [{
+				id: "00000000000041A2",
+				type: "item",
+				item: "resourcefulbees:sand_honeycomb"
+			}],
+			rewards: [{
+				id: "3C1059224A95CFE9",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041A5",
+			tasks: [{
+				id: "00000000000041A6",
+				type: "item",
+				item: "resourcefulbees:silver_honeycomb"
+			}],
+			rewards: [{
+				id: "7A226C7E94FE685A",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041A7",
+			tasks: [{
+				id: "00000000000041A8",
+				type: "item",
+				item: "resourcefulbees:skeleton_honeycomb"
+			}],
+			rewards: [{
+				id: "141C3958819D9185",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041AB",
+			tasks: [{
+				id: "00000000000041AC",
+				type: "item",
+				item: "resourcefulbees:snowball_honeycomb"
+			}],
+			rewards: [{
+				id: "65F489B2201B955F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041AD",
+			tasks: [{
+				id: "00000000000041AE",
+				type: "item",
+				item: "resourcefulbees:soulsand_honeycomb"
+			}],
+			rewards: [{
+				id: "3E8EDA81A0E4154A",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -3.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041AF",
+			tasks: [{
+				id: "00000000000041B0",
+				type: "item",
+				item: "resourcefulbees:steel_honeycomb"
+			}],
+			rewards: [{
+				id: "6A57BE90A354FFED",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041B3",
+			tasks: [{
+				id: "00000000000041B4",
+				type: "item",
+				item: "resourcefulbees:terrasteel_honeycomb"
+			}],
+			rewards: [{
+				id: "7F6A9E89DBBC4D6E",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041B5",
+			tasks: [{
+				id: "00000000000041B6",
+				type: "item",
+				item: "resourcefulbees:tin_honeycomb"
+			}],
+			rewards: [{
+				id: "1D8D32C56AAEF21D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 0.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041B7",
+			tasks: [{
+				id: "00000000000041B8",
+				type: "item",
+				item: "resourcefulbees:uranium_honeycomb"
+			}],
+			rewards: [{
+				id: "31433D7CC1A2AE30",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -4.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041B9",
+			tasks: [{
+				id: "00000000000041BA",
+				type: "item",
+				item: "resourcefulbees:wither_honeycomb"
+			}],
+			rewards: [{
+				id: "4E8FA68C53C5BD68",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041BB",
+			tasks: [{
+				id: "00000000000041BC",
+				type: "item",
+				item: "resourcefulbees:wither_skeleton_honeycomb"
+			}],
+			rewards: [{
+				id: "390CE409C44AED88",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000F8"],
+			id: "00000000000041BD",
+			tasks: [{
+				id: "00000000000041BE",
+				type: "item",
+				item: "resourcefulbees:zombie_honeycomb"
+			}],
+			rewards: [{
+				id: "136FEF2B086FE8F2",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

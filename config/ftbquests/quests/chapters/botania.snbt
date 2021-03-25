@@ -1,0 +1,878 @@
+{
+	id: "0000000000000043",
+	group: "",
+	order_index: 6,
+	filename: "botania",
+	title: "Botania",
+	icon: {
+		id: "botania:lexicon",
+		Count: 1b,
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			icon: "botania:fertilizer",
+			x: -2.0d,
+			y: 0.0d,
+			id: "000000000000402E",
+			tasks: [{
+				id: "6814A04EF368B3AD",
+				type: "item",
+				item: "botania:fertilizer",
+				only_from_crafting: false
+			}],
+			rewards: [
+				{
+					id: "0000000000004030",
+					type: "item",
+					item: "botania:lexicon"
+				},
+				{
+					id: "12A18E9E627118BD",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: ["000000000000402E"],
+			id: "0000000000004031",
+			tasks: [{
+				id: "0000000000004032",
+				type: "item",
+				item: "botania:flower_bag"
+			}],
+			rewards: [{
+				id: "1B90A08F5E6D9DCA",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Mystical Flower",
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["0000000000004031"],
+			id: "0000000000004033",
+			tasks: [
+				{
+					id: "0000000000004034",
+					type: "item",
+					item: "botania:white_mystical_flower"
+				},
+				{
+					id: "0000000000004035",
+					type: "item",
+					item: "botania:orange_mystical_flower"
+				},
+				{
+					id: "0000000000004036",
+					type: "item",
+					item: "botania:magenta_mystical_flower"
+				},
+				{
+					id: "0000000000004037",
+					type: "item",
+					item: "botania:light_blue_mystical_flower"
+				},
+				{
+					id: "0000000000004038",
+					type: "item",
+					item: "botania:yellow_mystical_flower"
+				},
+				{
+					id: "0000000000004039",
+					type: "item",
+					item: "botania:lime_mystical_flower"
+				},
+				{
+					id: "000000000000403A",
+					type: "item",
+					item: "botania:pink_mystical_flower"
+				},
+				{
+					id: "000000000000403B",
+					type: "item",
+					item: "botania:gray_mystical_flower"
+				},
+				{
+					id: "000000000000403C",
+					type: "item",
+					item: "botania:light_gray_mystical_flower"
+				},
+				{
+					id: "000000000000403D",
+					type: "item",
+					item: "botania:cyan_mystical_flower"
+				},
+				{
+					id: "000000000000403E",
+					type: "item",
+					item: "botania:purple_mystical_flower"
+				},
+				{
+					id: "000000000000403F",
+					type: "item",
+					item: "botania:blue_mystical_flower"
+				},
+				{
+					id: "0000000000004040",
+					type: "item",
+					item: "botania:brown_mystical_flower"
+				},
+				{
+					id: "0000000000004041",
+					type: "item",
+					item: "botania:green_mystical_flower"
+				},
+				{
+					id: "0000000000004042",
+					type: "item",
+					item: "botania:red_mystical_flower"
+				},
+				{
+					id: "0000000000004043",
+					type: "item",
+					item: "botania:black_mystical_flower"
+				}
+			],
+			rewards: [{
+				id: "041922D7DFC73B5D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			dependencies: ["000000000000406C"],
+			id: "0000000000004044",
+			tasks: [{
+				id: "0000000000004045",
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "0AB7F9203CD2CA95",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000004033"],
+			id: "0000000000004046",
+			tasks: [{
+				id: "0000000000004047",
+				type: "item",
+				item: "botania:apothecary_default"
+			}],
+			rewards: [{
+				id: "177DB15BEE5998EE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.0d,
+			dependencies: ["000000000000406C"],
+			id: "0000000000004048",
+			tasks: [{
+				id: "0000000000004049",
+				type: "item",
+				item: "botania:mana_pool"
+			}],
+			rewards: [{
+				id: "6307BA56D235301B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -2.0d,
+			dependencies: ["000000000000406C"],
+			id: "000000000000404A",
+			tasks: [{
+				id: "000000000000404B",
+				type: "item",
+				item: "botania:mana_spreader"
+			}],
+			rewards: [{
+				id: "69DF46D65BA9A2A6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 0.0d,
+			dependencies: ["0000000000004048"],
+			id: "000000000000404C",
+			tasks: [{
+				id: "000000000000404D",
+				type: "item",
+				item: "botania:mana_distributor"
+			}],
+			rewards: [{
+				id: "5C283EBA084BAB0C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -4.0d,
+			dependencies: ["000000000000404A"],
+			id: "000000000000404E",
+			tasks: [{
+				id: "000000000000404F",
+				type: "item",
+				item: "botania:elven_spreader"
+			}],
+			rewards: [{
+				id: "72557DEF8BC5AFB6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -6.0d,
+			dependencies: ["000000000000404E"],
+			id: "0000000000004050",
+			tasks: [{
+				id: "0000000000004051",
+				type: "item",
+				item: "botania:gaia_spreader"
+			}],
+			rewards: [{
+				id: "16F82B690289DE52",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.0d,
+			dependencies: ["0000000000004048"],
+			id: "0000000000004052",
+			tasks: [{
+				id: "0000000000004053",
+				type: "item",
+				item: "botania:fabulous_pool"
+			}],
+			rewards: [{
+				id: "12EA274739CF3737",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			dependencies: ["000000000000404A"],
+			id: "0000000000004054",
+			tasks: [{
+				id: "0000000000004055",
+				type: "item",
+				item: "botania:runic_altar"
+			}],
+			rewards: [{
+				id: "7C5EBB52A6999F78",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 4.0d,
+			dependencies: ["0000000000004048"],
+			id: "0000000000004056",
+			tasks: [{
+				id: "0000000000004057",
+				type: "item",
+				item: "botania:terra_plate"
+			}],
+			rewards: [{
+				id: "40FFFFD3AD7C347E",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: ["0000000000004046"],
+			id: "0000000000004058",
+			tasks: [{
+				id: "0000000000004059",
+				type: "item",
+				item: "botania:pure_daisy"
+			}],
+			rewards: [{
+				id: "76AE060A64231237",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			dependencies: ["0000000000004046"],
+			id: "000000000000405A",
+			tasks: [{
+				id: "000000000000405B",
+				type: "item",
+				item: "botania:endoflame"
+			}],
+			rewards: [{
+				id: "18671BB6E3E260D5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			dependencies: ["0000000000004046"],
+			id: "000000000000405C",
+			tasks: [{
+				id: "000000000000405D",
+				type: "item",
+				item: "botania:gourmaryllis"
+			}],
+			rewards: [{
+				id: "6D99B747EBBB7DE8",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			dependencies: ["0000000000004046"],
+			id: "000000000000405E",
+			tasks: [{
+				id: "000000000000405F",
+				type: "item",
+				item: "botania:kekimurus"
+			}],
+			rewards: [{
+				id: "1C1777A136DF05AF",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.0d,
+			dependencies: ["0000000000004046"],
+			id: "0000000000004060",
+			tasks: [{
+				id: "0000000000004061",
+				type: "item",
+				item: "botania:rosa_arcana"
+			}],
+			rewards: [{
+				id: "6768C75736947937",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Portal to Alfheim",
+			x: 16.0d,
+			y: 4.0d,
+			dependencies: ["000000000000406A"],
+			id: "0000000000004062",
+			tasks: [
+				{
+					id: "0000000000004063",
+					type: "item",
+					item: "botania:alfheim_portal"
+				},
+				{
+					id: "0000000000004089",
+					type: "item",
+					item: "botania:glimmering_livingwood",
+					count: 3L
+				},
+				{
+					id: "000000000000408A",
+					type: "item",
+					item: "botania:livingwood",
+					count: 8L
+				},
+				{
+					id: "000000000000408B",
+					type: "item",
+					item: "botania:mana_pool",
+					count: 2L
+				},
+				{
+					id: "000000000000408C",
+					type: "item",
+					item: "botania:natura_pylon",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: "285FDADABC0F2A3B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -2.0d,
+			dependencies: ["0000000000004048"],
+			id: "0000000000004064",
+			tasks: [{
+				id: "0000000000004065",
+				type: "item",
+				item: "botania:mana_pylon"
+			}],
+			rewards: [{
+				id: "474DE519D27091BA",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -4.0d,
+			dependencies: ["0000000000004064"],
+			id: "0000000000004066",
+			tasks: [{
+				id: "0000000000004067",
+				type: "item",
+				item: "botania:natura_pylon"
+			}],
+			rewards: [{
+				id: "03A7B669B5EA854C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -6.0d,
+			dependencies: ["0000000000004066"],
+			id: "0000000000004068",
+			tasks: [{
+				id: "0000000000004069",
+				type: "item",
+				item: "botania:gaia_pylon"
+			}],
+			rewards: [{
+				id: "524E84198A45DC82",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 4.0d,
+			dependencies: ["0000000000004056"],
+			id: "000000000000406A",
+			tasks: [{
+				id: "000000000000406B",
+				type: "item",
+				item: "botania:spark"
+			}],
+			rewards: [{
+				id: "7A505918425A0E45",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Living",
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: ["0000000000004058"],
+			id: "000000000000406C",
+			tasks: [
+				{
+					id: "000000000000406D",
+					type: "item",
+					item: "botania:livingwood"
+				},
+				{
+					id: "000000000000406E",
+					type: "item",
+					item: "botania:livingrock"
+				}
+			],
+			rewards: [{
+				id: "16AB325A8524B7AA",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: ["0000000000004048"],
+			id: "000000000000406F",
+			tasks: [{
+				id: "0000000000004070",
+				type: "item",
+				item: {
+					id: "botania:manasteel_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6E94CF448A5D358E",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			dependencies: ["000000000000406F"],
+			id: "0000000000004071",
+			tasks: [{
+				id: "0000000000004072",
+				type: "item",
+				item: {
+					id: "botania:manasteel_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "165EEA14C69B96B5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 10.0d,
+			dependencies: ["0000000000004075"],
+			id: "0000000000004073",
+			tasks: [{
+				id: "0000000000004074",
+				type: "item",
+				item: {
+					id: "botania:manasteel_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "285EB0CA57A55443",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			dependencies: ["0000000000004071"],
+			id: "0000000000004075",
+			tasks: [{
+				id: "0000000000004076",
+				type: "item",
+				item: {
+					id: "botania:manasteel_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0A58D17523F08D69",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: ["0000000000004056"],
+			id: "0000000000004077",
+			tasks: [{
+				id: "0000000000004078",
+				type: "item",
+				item: {
+					id: "botania:terrasteel_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2A3124FAF7A4B352",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.0d,
+			dependencies: ["0000000000004077"],
+			id: "0000000000004079",
+			tasks: [{
+				id: "000000000000407A",
+				type: "item",
+				item: {
+					id: "botania:terrasteel_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "3AE999AFA6D0AFC6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 8.0d,
+			dependencies: ["0000000000004079"],
+			id: "000000000000407B",
+			tasks: [{
+				id: "000000000000407C",
+				type: "item",
+				item: {
+					id: "botania:terrasteel_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1F57E92034E0D1CB",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 10.0d,
+			dependencies: ["000000000000407B"],
+			id: "000000000000407D",
+			tasks: [{
+				id: "000000000000407E",
+				type: "item",
+				item: {
+					id: "botania:terrasteel_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6F2049F6E45F8001",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: ["0000000000004062"],
+			id: "000000000000407F",
+			tasks: [{
+				id: "0000000000004080",
+				type: "item",
+				item: {
+					id: "botania:elementium_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "07A493299A09D3CF",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			dependencies: ["000000000000407F"],
+			id: "0000000000004081",
+			tasks: [{
+				id: "0000000000004082",
+				type: "item",
+				item: {
+					id: "botania:elementium_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6FFB32C38ECA0C07",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			dependencies: ["0000000000004081"],
+			id: "0000000000004083",
+			tasks: [{
+				id: "0000000000004084",
+				type: "item",
+				item: {
+					id: "botania:elementium_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "024C16B29B5EA6A0",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.0d,
+			dependencies: ["0000000000004083"],
+			id: "0000000000004085",
+			tasks: [{
+				id: "0000000000004086",
+				type: "item",
+				item: {
+					id: "botania:elementium_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0F583F23A0BD25DE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 6.0d,
+			dependencies: ["0000000000004056"],
+			id: "0000000000004087",
+			tasks: [{
+				id: "0000000000004088",
+				type: "item",
+				item: "botania:dice"
+			}],
+			rewards: [{
+				id: "6569C643472F28D3",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Black Dye",
+			x: 1.0d,
+			y: 2.0d,
+			dependencies: ["0000000000004033"],
+			id: "00000000000040A5",
+			tasks: [
+				{
+					id: "00000000000040A6",
+					type: "item",
+					item: "botania:pestle_and_mortar"
+				},
+				{
+					id: "00000000000040A7",
+					type: "item",
+					item: "botania:black_mystical_flower"
+				},
+				{
+					id: "00000000000040A8",
+					type: "item",
+					item: "botania:black_petal"
+				}
+			],
+			rewards: [
+				{
+					id: "00000000000040A9",
+					type: "item",
+					item: "minecraft:black_dye"
+				},
+				{
+					id: "33AF274C0ABB3245",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			description: ["This Quest opens up the Industrial Foregoing."],
+			dependencies: ["0000000000004054"],
+			id: "0000000000004287",
+			tasks: [{
+				id: "0000000000004288",
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: "14B2FEE16DB838AE",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			dependencies: ["0000000000004048"],
+			id: "00000000000042B7",
+			tasks: [{
+				id: "00000000000042B8",
+				type: "item",
+				item: "powah:dielectric_paste"
+			}],
+			rewards: [{
+				id: "6D71CE23616D867F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

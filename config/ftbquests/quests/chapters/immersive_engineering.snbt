@@ -1,0 +1,655 @@
+{
+	id: "000000000000003A",
+	group: "",
+	order_index: 4,
+	filename: "immersive_engineering",
+	title: "Immersive Engineering",
+	icon: "immersiveengineering:manual",
+	default_quest_shape: "",
+	images: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: "",
+			dev: false,
+			corner: false
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: "",
+			dev: false,
+			corner: false
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: "",
+			dev: false,
+			corner: false
+		}
+	],
+	quests: [
+		{
+			title: "Immersive Engineering",
+			icon: "immersiveengineering:manual",
+			x: 0.0d,
+			y: 0.0d,
+			id: "00000000000000A0",
+			tasks: [{
+				id: "00000000000000A1",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "00000000000000A2",
+				type: "item",
+				item: "immersiveengineering:manual"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.5d,
+			dependencies: ["00000000000000A0"],
+			id: "00000000000000A3",
+			tasks: [{
+				id: "00000000000000A4",
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}],
+			rewards: [
+				{
+					id: "00000000000000A5",
+					type: "item",
+					item: {
+						id: "immersiveengineering:hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "64D067D17074404E",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: ["00000000000000A3"],
+			id: "00000000000000A6",
+			tasks: [{
+				id: "00000000000000A7",
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: "226632ABC68C0AA6",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.5d,
+			dependencies: ["00000000000000A3"],
+			id: "00000000000000A8",
+			tasks: [{
+				id: "00000000000000A9",
+				type: "item",
+				item: "immersiveengineering:coal_coke"
+			}],
+			rewards: [{
+				id: "31C34EE59162A36F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			dependencies: ["00000000000000A3"],
+			id: "00000000000000AA",
+			tasks: [{
+				id: "00000000000000AB",
+				type: "item",
+				item: "immersiveengineering:creosote_bucket"
+			}],
+			rewards: [{
+				id: "4502571325786D3C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -2.5d,
+			dependencies: ["00000000000000AA"],
+			id: "00000000000000AC",
+			tasks: [{
+				id: "00000000000000AD",
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal"
+			}],
+			rewards: [{
+				id: "1A97BA2412A3EBF5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.5d,
+			dependencies: ["00000000000000AC"],
+			id: "00000000000000AE",
+			tasks: [{
+				id: "00000000000000AF",
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}],
+			rewards: [{
+				id: "1B1B99CF342255C7",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -5.0d,
+			dependencies: ["00000000000000AE"],
+			id: "00000000000000B0",
+			tasks: [
+				{
+					id: "00000000000000B1",
+					type: "item",
+					item: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "components"
+						}
+					}
+				},
+				{
+					id: "00000000000000B2",
+					type: "item",
+					item: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000422B",
+					type: "item",
+					item: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+				},
+				{
+					id: "5FF1841BD1BABAEE",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			title: "Steel Ingot",
+			x: 2.5d,
+			y: -2.5d,
+			dependencies: ["00000000000000A6"],
+			id: "00000000000000B3",
+			tasks: [{
+				id: "00000000000000B4",
+				type: "item",
+				title: "Any forge:ingots/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}],
+			rewards: [{
+				id: "4339B0211B4EC2E9",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -7.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000A0"],
+			id: "00000000000000B7",
+			tasks: [{
+				id: "00000000000000B8",
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}],
+			rewards: [{
+				id: "1D79DD589AF8E613",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -5.0d,
+			dependencies: [
+				"00000000000000AC",
+				"00000000000000B7"
+			],
+			id: "00000000000000B9",
+			tasks: [{
+				id: "00000000000000BA",
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}],
+			rewards: [{
+				id: "4598031AB537A38B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.0d,
+			dependencies: [
+				"00000000000000AC",
+				"00000000000000B7"
+			],
+			id: "00000000000000BB",
+			tasks: [{
+				id: "00000000000000BC",
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}],
+			rewards: [{
+				id: "2A129F2F65DEE86C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -10.5d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000A0"],
+			id: "00000000000000BD",
+			tasks: [{
+				id: "00000000000000BE",
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper"
+			}],
+			rewards: [{
+				id: "4CCEDF2A33AF847B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -10.5d,
+			dependencies: ["00000000000000C3"],
+			id: "00000000000000BF",
+			tasks: [{
+				id: "00000000000000C0",
+				type: "item",
+				item: "immersiveengineering:connector_lv"
+			}],
+			rewards: [{
+				id: "50562D871832712F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -10.5d,
+			dependencies: ["00000000000000BF"],
+			id: "00000000000000C1",
+			tasks: [{
+				id: "00000000000000C2",
+				type: "item",
+				item: "immersiveengineering:connector_lv_relay"
+			}],
+			rewards: [{
+				id: "01B5A9749144CA94",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -10.5d,
+			dependencies: ["00000000000000BD"],
+			id: "00000000000000C3",
+			tasks: [{
+				id: "00000000000000C4",
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}],
+			rewards: [{
+				id: "6ADA98DC46103493",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -10.5d,
+			dependencies: ["00000000000000C1"],
+			id: "00000000000000C5",
+			tasks: [{
+				id: "00000000000000C6",
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}],
+			rewards: [{
+				id: "3B3BAD25CE248151",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -9.0d,
+			dependencies: ["00000000000000CD"],
+			id: "00000000000000C7",
+			tasks: [{
+				id: "00000000000000C8",
+				type: "item",
+				item: "immersiveengineering:capacitor_mv"
+			}],
+			rewards: [{
+				id: "1C5FEF826F883ABC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -7.5d,
+			dependencies: ["00000000000000D5"],
+			id: "00000000000000C9",
+			tasks: [{
+				id: "00000000000000CA",
+				type: "item",
+				item: "immersiveengineering:capacitor_hv"
+			}],
+			rewards: [{
+				id: "7DCDFCCDA333D054",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -9.0d,
+			dependencies: ["00000000000000CF"],
+			id: "00000000000000CB",
+			tasks: [{
+				id: "00000000000000CC",
+				type: "item",
+				item: "immersiveengineering:connector_mv"
+			}],
+			rewards: [{
+				id: "451F409BCCA08AA1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -9.0d,
+			dependencies: ["00000000000000CB"],
+			id: "00000000000000CD",
+			tasks: [{
+				id: "00000000000000CE",
+				type: "item",
+				item: "immersiveengineering:connector_mv_relay"
+			}],
+			rewards: [{
+				id: "38427B1857866174",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -9.0d,
+			dependencies: ["00000000000000D1"],
+			id: "00000000000000CF",
+			tasks: [{
+				id: "00000000000000D0",
+				type: "item",
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}],
+			rewards: [{
+				id: "083A0177BC29140D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -9.0d,
+			hide_dependency_lines: true,
+			dependencies: ["00000000000000A0"],
+			id: "00000000000000D1",
+			tasks: [{
+				id: "00000000000000D2",
+				type: "item",
+				item: "immersiveengineering:wirecoil_electrum"
+			}],
+			rewards: [{
+				id: "28B2230F9A082247",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -7.5d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"00000000000000B3",
+				"00000000000000A0"
+			],
+			id: "00000000000000D3",
+			tasks: [{
+				id: "00000000000000D4",
+				type: "item",
+				item: "immersiveengineering:wirecoil_steel"
+			}],
+			rewards: [{
+				id: "72E9F0A8870697B5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -7.5d,
+			dependencies: ["00000000000000D7"],
+			id: "00000000000000D5",
+			tasks: [{
+				id: "00000000000000D6",
+				type: "item",
+				item: "immersiveengineering:connector_hv_relay"
+			}],
+			rewards: [{
+				id: "398C5129494B8026",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -7.5d,
+			dependencies: ["00000000000000D3"],
+			id: "00000000000000D7",
+			tasks: [{
+				id: "00000000000000D8",
+				type: "item",
+				item: "immersiveengineering:connector_hv"
+			}],
+			rewards: [{
+				id: "5DE79888211B9141",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -7.5d,
+			dependencies: ["00000000000000B3"],
+			id: "00000000000000D9",
+			tasks: [{
+				id: "00000000000000DA",
+				type: "item",
+				item: "immersiveengineering:thermoelectric_generator"
+			}],
+			rewards: [
+				{
+					id: "0000000000003FBD",
+					type: "item",
+					item: "minecraft:packed_ice",
+					count: 2
+				},
+				{
+					id: "0000000000003FBE",
+					type: "item",
+					item: "immersiveengineering:storage_uranium",
+					count: 2
+				},
+				{
+					id: "621528E6C7F676F0",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: -7.5d,
+			hide_dependency_lines: false,
+			dependencies: ["00000000000000B9"],
+			id: "00000000000000FA",
+			tasks: [{
+				id: "00000000000000FB",
+				type: "item",
+				item: "immersiveengineering:windmill_sail"
+			}],
+			rewards: [{
+				id: "320285ECA3EA15FF",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Alloy Smelter",
+			x: -2.5d,
+			y: 0.0d,
+			dependencies: ["00000000000000A0"],
+			id: "000000000000426C",
+			tasks: [{
+				id: "000000000000426D",
+				type: "item",
+				item: "immersiveengineering:alloybrick",
+				count: 8L
+			}],
+			rewards: [{
+				id: "1276F06F9B7AA373",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.0d,
+			dependencies: ["000000000000426C"],
+			id: "000000000000426E",
+			tasks: [{
+				id: "000000000000426F",
+				type: "item",
+				item: "refinedstorage:quartz_enriched_iron"
+			}],
+			rewards: [{
+				id: "6AEA0AE423E00ACC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Metal Press",
+			x: 5.0d,
+			y: -2.5d,
+			dependencies: ["00000000000000B3"],
+			id: "0000000000004272",
+			tasks: [
+				{
+					id: "0000000000004273",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 2L
+				},
+				{
+					id: "0000000000004274",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "0000000000004275",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering"
+				},
+				{
+					id: "0000000000004276",
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: "0000000000004277",
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: "13B32D8D67C3CD6B",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

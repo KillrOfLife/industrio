@@ -1,0 +1,30 @@
+{
+	id: "740929812A926121",
+	order_index: 0,
+	title: "rewards",
+	icon: "chancecubes:chance_cube",
+	loot_size: 1,
+	rewards: [
+		{
+			auto: "disabled",
+			item: "chancecubes:chance_cube",
+			count: 5,
+			team_reward: 0b,
+			weight: 2
+		},
+		{
+			auto: "disabled",
+			item: "chancecubes:chance_cube",
+			count: 3,
+			team_reward: 0b,
+			weight: 3
+		},
+		{
+			auto: "disabled",
+			item: "chancecubes:chance_cube",
+			count: 2,
+			team_reward: 0b,
+			weight: 3
+		}
+	]
+}

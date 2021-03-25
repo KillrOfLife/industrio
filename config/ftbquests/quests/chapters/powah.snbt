@@ -1,0 +1,203 @@
+{
+	id: "0000000000000042",
+	group: "",
+	order_index: 5,
+	filename: "powah",
+	title: "Powah",
+	icon: "powah:energizing_rod_starter",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["0000000000003FB5"],
+			id: "0000000000003FA7",
+			tasks: [{
+				id: "0000000000003FA8",
+				type: "item",
+				item: {
+					id: "powah:wrench",
+					Count: 1b,
+					tag: {
+						PowahWrenchNBT: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "3648711EB22F5EB1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 4.0d,
+			dependencies: ["0000000000003FBB"],
+			id: "0000000000003FA9",
+			tasks: [{
+				id: "0000000000003FAA",
+				type: "item",
+				item: "powah:energizing_orb"
+			}],
+			rewards: [{
+				id: "4ED02F5DC5B8DED3",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			dependencies: ["0000000000003FBB"],
+			id: "0000000000003FAB",
+			tasks: [{
+				id: "0000000000003FAC",
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}],
+			rewards: [{
+				id: "1B2210C46CEF6D2C",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 4.0d,
+			dependencies: ["0000000000003FBB"],
+			id: "0000000000003FAD",
+			tasks: [{
+				id: "0000000000003FAE",
+				type: "item",
+				item: "powah:energy_cell_starter"
+			}],
+			rewards: [{
+				id: "75BE5969493ED051",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 2.0d,
+			dependencies: ["0000000000003FBB"],
+			id: "0000000000003FAF",
+			tasks: [{
+				id: "0000000000003FB0",
+				type: "item",
+				item: "powah:ender_cell_starter"
+			}],
+			rewards: [{
+				id: "4536AC866CC6317D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			dependencies: ["0000000000003FB9"],
+			id: "0000000000003FB1",
+			tasks: [{
+				id: "0000000000003FB2",
+				type: "item",
+				item: "powah:energy_cable_starter"
+			}],
+			rewards: [{
+				id: "7D53188941296C83",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 2.0d,
+			dependencies: ["0000000000003FAF"],
+			id: "0000000000003FB3",
+			tasks: [{
+				id: "0000000000003FB4",
+				type: "item",
+				item: "powah:ender_gate_starter"
+			}],
+			rewards: [{
+				id: "450A0474E48E99B1",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			icon: "powah:dielectric_paste",
+			x: -2.5d,
+			y: 0.0d,
+			id: "0000000000003FB5",
+			tasks: [{
+				id: "000000000000427E",
+				type: "item",
+				item: "powah:dielectric_paste"
+			}],
+			rewards: [
+				{
+					id: "00000000000040AA",
+					type: "item",
+					item: "powah:book"
+				},
+				{
+					id: "15081B78665B1FB4",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			dependencies: ["0000000000003FB5"],
+			id: "0000000000003FB7",
+			tasks: [{
+				id: "0000000000003FB8",
+				type: "item",
+				item: "powah:dielectric_rod"
+			}],
+			rewards: [{
+				id: "2C06E87ABD3FF36D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			dependencies: ["0000000000003FB5"],
+			id: "0000000000003FB9",
+			tasks: [{
+				id: "0000000000003FBA",
+				type: "item",
+				item: "powah:dielectric_rod_horizontal"
+			}],
+			rewards: [{
+				id: "0630DBA7941DB2EC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.0d,
+			dependencies: [
+				"0000000000003FB7",
+				"0000000000003FB9"
+			],
+			id: "0000000000003FBB",
+			tasks: [{
+				id: "0000000000003FBC",
+				type: "item",
+				item: "powah:dielectric_casing"
+			}],
+			rewards: [{
+				id: "1E7183201ECB9BE5",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}

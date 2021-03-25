@@ -1,0 +1,306 @@
+{
+	id: "00000000000040BF",
+	group: "",
+	order_index: 7,
+	filename: "industrial_forgoing",
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:plastic",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -7.5d,
+			y: -5.0d,
+			dependencies: ["00000000000040C6"],
+			id: "00000000000040C0",
+			tasks: [{
+				id: "00000000000040C1",
+				type: "item",
+				item: "industrialforegoing:fluid_extractor"
+			}],
+			rewards: [{
+				id: "43DA945652F36500",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.0d,
+			dependencies: ["00000000000040C0"],
+			id: "00000000000040C2",
+			tasks: [{
+				id: "00000000000040C3",
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: "32226390E4C67597",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -5.0d,
+			dependencies: ["00000000000040C2"],
+			id: "00000000000040C4",
+			tasks: [{
+				id: "00000000000040C5",
+				type: "item",
+				item: "industrialforegoing:dissolution_chamber"
+			}],
+			rewards: [{
+				id: "1F5C28494D431309",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			title: "Pity Machine Frame",
+			icon: "industrialforegoing:machine_frame_pity",
+			x: -10.0d,
+			y: -5.0d,
+			dependencies: ["0000000000004287"],
+			id: "00000000000040C6",
+			tasks: [{
+				id: "45F6FE7B106D86BE",
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [
+				{
+					id: "00000000000040DF",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				},
+				{
+					id: "001EBD258E0E254B",
+					type: "random",
+					table_id: 8361259817931792673L
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: ["00000000000040C4"],
+			id: "00000000000040C8",
+			tasks: [{
+				id: "00000000000040C9",
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
+			}],
+			rewards: [{
+				id: "69AEDD77A1654F23",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			dependencies: ["00000000000040C4"],
+			id: "00000000000040CA",
+			tasks: [{
+				id: "00000000000040CB",
+				type: "item",
+				item: "industrialforegoing:machine_frame_advanced"
+			}],
+			rewards: [{
+				id: "3B5E3C3D05F25F86",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -6.5d,
+			dependencies: ["00000000000040CA"],
+			id: "00000000000040CC",
+			tasks: [{
+				id: "00000000000040CD",
+				type: "item",
+				item: "industrialforegoing:material_stonework_factory"
+			}],
+			rewards: [{
+				id: "6695A26034FD4456",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.5d,
+			dependencies: ["00000000000040C8"],
+			id: "00000000000040CE",
+			tasks: [{
+				id: "00000000000040CF",
+				type: "item",
+				item: "industrialforegoing:marine_fisher"
+			}],
+			rewards: [{
+				id: "6035B6FE9A6EE0DC",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -8.5d,
+			dependencies: ["00000000000040CA"],
+			id: "00000000000040D0",
+			tasks: [{
+				id: "00000000000040D1",
+				type: "item",
+				item: "industrialforegoing:mob_crusher"
+			}],
+			rewards: [{
+				id: "08A2E9D1CE6A0985",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -2.0d,
+			dependencies: ["00000000000040C6"],
+			id: "00000000000040D2",
+			tasks: [{
+				id: "00000000000040D3",
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}],
+			rewards: [{
+				id: "6F9B2160D513C4FD",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -8.0d,
+			dependencies: ["00000000000040C4"],
+			id: "00000000000040D4",
+			tasks: [{
+				id: "00000000000040D5",
+				type: "item",
+				item: {
+					id: "industrialforegoing:range_addon0",
+					Count: 1b,
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "64DF621A3EB23A26",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -8.0d,
+			dependencies: ["00000000000040C4"],
+			id: "00000000000040D6",
+			tasks: [{
+				id: "00000000000040D7",
+				type: "item",
+				item: {
+					id: "industrialforegoing:efficiency_addon_1",
+					Count: 1b,
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "4123D3C6F8CA523D",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -10.5d,
+			dependencies: ["00000000000040D6"],
+			id: "00000000000040D8",
+			tasks: [{
+				id: "00000000000040D9",
+				type: "item",
+				item: {
+					id: "industrialforegoing:efficiency_addon_2",
+					Count: 1b,
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "3B5616A5E8ED569F",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -8.0d,
+			dependencies: ["00000000000040C4"],
+			id: "00000000000040DA",
+			tasks: [{
+				id: "00000000000040DB",
+				type: "item",
+				item: {
+					id: "industrialforegoing:speed_addon_1",
+					Count: 1b,
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "1B0748C048814E39",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -10.5d,
+			dependencies: ["00000000000040DA"],
+			id: "00000000000040DC",
+			tasks: [{
+				id: "00000000000040DD",
+				type: "item",
+				item: {
+					id: "industrialforegoing:speed_addon_2",
+					Count: 1b,
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "37D869E51F75E6F4",
+				type: "random",
+				table_id: 8361259817931792673L
+			}]
+		}
+	]
+}
