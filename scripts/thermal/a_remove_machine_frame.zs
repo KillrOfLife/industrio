@@ -1,0 +1,1 @@
+craftingTable.removeRecipe(<item:thermal:machine_frame>);
